@@ -1,0 +1,56 @@
+1
+00:00:01,053 --> 00:00:07,828
+I.amOnPage(/)
+
+2
+00:00:07,829 --> 00:00:10,073
+I.click(Sign in)
+
+3
+00:00:10,074 --> 00:00:11,653
+I.fillField(#email_create,Sharon.Bogisich@gmail.com)
+
+4
+00:00:11,653 --> 00:00:12,946
+I.click(Create an account)
+
+5
+00:00:12,946 --> 00:00:14,420
+I.fillField(#customer_firstname,Estrella)
+
+6
+00:00:14,420 --> 00:00:15,787
+I.fillField(#customer_lastname,Purdy)
+
+7
+00:00:15,787 --> 00:00:17,261
+I.fillField(#passwd,J1HmKAg033QHJ2j)
+
+8
+00:00:17,261 --> 00:00:18,452
+I.selectOption(#days,14)
+
+9
+00:00:18,453 --> 00:00:19,683
+I.selectOption(months,11)
+
+10
+00:00:19,683 --> 00:00:20,959
+I.selectOption(#years,1990)
+
+11
+00:00:20,959 --> 00:00:22,199
+I.checkOption(#newsletter)
+
+12
+00:00:22,199 --> 00:00:23,402
+I.checkOption(#optin)
+
+13
+00:00:23,402 --> 00:00:25,623
+I.click(Register)
+
+14
+00:00:25,623 --> 00:00:25,850
+I.see(Your account has been created.)
+

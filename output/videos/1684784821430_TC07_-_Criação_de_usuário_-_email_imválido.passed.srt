@@ -1,0 +1,20 @@
+1
+00:00:00,453 --> 00:00:06,818
+I.amOnPage(/)
+
+2
+00:00:06,819 --> 00:00:08,775
+I.click(Sign in)
+
+3
+00:00:08,775 --> 00:00:10,072
+I.fillField(#email_create,ale1.uorak,com)
+
+4
+00:00:10,072 --> 00:00:11,256
+I.click(Create an account)
+
+5
+00:00:11,256 --> 00:00:11,379
+I.see(Invalid email address.)
+

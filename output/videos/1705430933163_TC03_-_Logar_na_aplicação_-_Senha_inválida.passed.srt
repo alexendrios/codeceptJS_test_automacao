@@ -1,0 +1,28 @@
+1
+00:00:00,615 --> 00:00:08,078
+I.amOnPage(/)
+
+2
+00:00:08,078 --> 00:00:10,050
+I.click(Sign in)
+
+3
+00:00:10,050 --> 00:00:10,163
+I.see(AUTHENTICATION)
+
+4
+00:00:10,163 --> 00:00:11,449
+I.fillField(#email,ale@uorak.com)
+
+5
+00:00:11,449 --> 00:00:12,710
+I.fillField(#passwd,futuro09)
+
+6
+00:00:12,710 --> 00:00:14,298
+I.click(#SubmitLogin)
+
+7
+00:00:14,298 --> 00:00:14,423
+I.see(There is 1 error)
+

@@ -1,0 +1,1729 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1705430963103' stop='1705431141954'>
+    <name>Cadastro de usuário</name>
+    <title>Cadastro de usuário</title>
+    <test-cases>
+        <test-case start='1705430963104' status='passed' stop='1705430974940'>
+            <name>TC06 - Criação de usuário - email vazio</name>
+            <title>TC06 - Criação de usuário - email vazio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705430963709' status='passed' stop='1705430971081'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430963709' status='passed' stop='1705430971081'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430963709' status='passed' stop='1705430971081'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430971081' status='passed' stop='1705430972828'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430971081' status='passed' stop='1705430972828'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430971081' status='passed' stop='1705430972828'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430972828' status='passed' stop='1705430973872'>
+                    <name>And ao informar o email "" </name>
+                    <title>And ao informar o email "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430972828' status='passed' stop='1705430973872'>
+                            <name>accountPage: preecherEmail </name>
+                            <title>accountPage: preecherEmail </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430972828' status='passed' stop='1705430973872'>
+                                    <name>I fill field "#email_create", </name>
+                                    <title>I fill field "#email_create", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430973872' status='passed' stop='1705430974931'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430973872' status='passed' stop='1705430974931'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430973872' status='passed' stop='1705430974931'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430974931' status='passed' stop='1705430974940'>
+                    <name>Then eu visualizo a seguinte mensagem "Invalid email address." </name>
+                    <title>Then eu visualizo a seguinte mensagem "Invalid email address." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430974931' status='passed' stop='1705430974940'>
+                            <name>homePage: verificacaoTextoPagina "Invalid email address."</name>
+                            <title>homePage: verificacaoTextoPagina "Invalid email address."</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430974931' status='passed' stop='1705430974940'>
+                                    <name>I see "Invalid email address."</name>
+                                    <title>I see "Invalid email address."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705430975211' status='passed' stop='1705430986916'>
+            <name>TC07 - Criação de usuário - email imválido</name>
+            <title>TC07 - Criação de usuário - email imválido</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705430975835' status='passed' stop='1705430982947'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430975835' status='passed' stop='1705430982947'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430975835' status='passed' stop='1705430982947'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430982947' status='passed' stop='1705430984731'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430982947' status='passed' stop='1705430984731'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430982947' status='passed' stop='1705430984731'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430984731' status='passed' stop='1705430985850'>
+                    <name>And ao informar o email "ale1.uorak,com" </name>
+                    <title>And ao informar o email "ale1.uorak,com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430984731' status='passed' stop='1705430985850'>
+                            <name>accountPage: preecherEmail "ale1.uorak,com"</name>
+                            <title>accountPage: preecherEmail "ale1.uorak,com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430984731' status='passed' stop='1705430985850'>
+                                    <name>I fill field "#email_create", "ale1.uorak,com"</name>
+                                    <title>I fill field "#email_create", "ale1.uorak,com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430985850' status='passed' stop='1705430986909'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430985850' status='passed' stop='1705430986909'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430985850' status='passed' stop='1705430986909'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430986909' status='passed' stop='1705430986916'>
+                    <name>Then eu visualizo a seguinte mensagem "Invalid email address." </name>
+                    <title>Then eu visualizo a seguinte mensagem "Invalid email address." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430986909' status='passed' stop='1705430986916'>
+                            <name>homePage: verificacaoTextoPagina "Invalid email address."</name>
+                            <title>homePage: verificacaoTextoPagina "Invalid email address."</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430986909' status='passed' stop='1705430986916'>
+                                    <name>I see "Invalid email address."</name>
+                                    <title>I see "Invalid email address."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705430987181' status='passed' stop='1705430998856'>
+            <name>TC08 - Criação de usuário - email válido</name>
+            <title>TC08 - Criação de usuário - email válido</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705430987785' status='passed' stop='1705430994925'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430987785' status='passed' stop='1705430994925'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430987785' status='passed' stop='1705430994925'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430994925' status='passed' stop='1705430996661'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430994925' status='passed' stop='1705430996661'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430994925' status='passed' stop='1705430996661'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430996661' status='passed' stop='1705430997782'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430996661' status='passed' stop='1705430997782'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430996662' status='passed' stop='1705430997782'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430997782' status='passed' stop='1705430998839'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430997782' status='passed' stop='1705430998839'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430997782' status='passed' stop='1705430998839'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705430998839' status='passed' stop='1705430998856'>
+                    <name>Then eu visualizo a seguinte mensagem "YOUR PERSONAL INFORMATION" </name>
+                    <title>Then eu visualizo a seguinte mensagem "YOUR PERSONAL INFORMATION" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430998839' status='passed' stop='1705430998856'>
+                            <name>homePage: verificacaoTextoPagina "YOUR PERSONAL INFORMATION"</name>
+                            <title>homePage: verificacaoTextoPagina "YOUR PERSONAL INFORMATION"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430998839' status='passed' stop='1705430998856'>
+                                    <name>I see "YOUR PERSONAL INFORMATION"</name>
+                                    <title>I see "YOUR PERSONAL INFORMATION"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705430999118' status='passed' stop='1705431018590'>
+            <name>TC09 - Criação de usuário - Informações Em branco</name>
+            <title>TC09 - Criação de usuário - Informações Em branco</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705430999723' status='passed' stop='1705431006872'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705430999723' status='passed' stop='1705431006872'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705430999723' status='passed' stop='1705431006872'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431006872' status='passed' stop='1705431008641'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431006872' status='passed' stop='1705431008641'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431006872' status='passed' stop='1705431008641'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431008641' status='passed' stop='1705431009774'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431008641' status='passed' stop='1705431009774'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431008641' status='passed' stop='1705431009774'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431009774' status='passed' stop='1705431010831'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431009774' status='passed' stop='1705431010831'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431009774' status='passed' stop='1705431010831'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431010831' status='passed' stop='1705431013983'>
+                    <name>And ao  informar as informações: title "" fist name "" Last name "" password "" </name>
+                    <title>And ao  informar as informações: title "" fist name "" Last name "" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431010831' status='passed' stop='1705431013983'>
+                            <name>accountPage: preencherFormCadastro , , , </name>
+                            <title>accountPage: preencherFormCadastro , , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431010831' status='passed' stop='1705431011897'>
+                                    <name>I fill field "#customer_firstname", </name>
+                                    <title>I fill field "#customer_firstname", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431011897' status='passed' stop='1705431012941'>
+                                    <name>I fill field "#customer_lastname", </name>
+                                    <title>I fill field "#customer_lastname", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431012941' status='passed' stop='1705431013982'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431013983' status='passed' stop='1705431017135'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431013983' status='passed' stop='1705431017135'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431013983' status='passed' stop='1705431015036'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431015036' status='passed' stop='1705431016092'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431016092' status='passed' stop='1705431017135'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431017135' status='passed' stop='1705431018583'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431017135' status='passed' stop='1705431018583'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431017135' status='passed' stop='1705431018583'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431018583' status='passed' stop='1705431018590'>
+                    <name>Then eu visualizo a seguinte mensagem "There are 3 errors" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There are 3 errors" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431018583' status='passed' stop='1705431018590'>
+                            <name>homePage: verificacaoTextoPagina "There are 3 errors"</name>
+                            <title>homePage: verificacaoTextoPagina "There are 3 errors"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431018583' status='passed' stop='1705431018590'>
+                                    <name>I see "There are 3 errors"</name>
+                                    <title>I see "There are 3 errors"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705431018862' status='passed' stop='1705431038344'>
+            <name>TC10 - Criação de usuário - Preenchendo somente o campo - fist name -</name>
+            <title>TC10 - Criação de usuário - Preenchendo somente o campo - fist name -</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705431019490' status='passed' stop='1705431026578'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431019490' status='passed' stop='1705431026578'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431019491' status='passed' stop='1705431026578'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431026578' status='passed' stop='1705431028303'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431026578' status='passed' stop='1705431028303'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431026578' status='passed' stop='1705431028303'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431028303' status='passed' stop='1705431029433'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431028303' status='passed' stop='1705431029433'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431028303' status='passed' stop='1705431029433'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431029433' status='passed' stop='1705431030488'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431029433' status='passed' stop='1705431030488'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431029433' status='passed' stop='1705431030488'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431030488' status='passed' stop='1705431033724'>
+                    <name>And ao  informar as informações: title "" fist name "Alexandre" Last name "" password "" </name>
+                    <title>And ao  informar as informações: title "" fist name "Alexandre" Last name "" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431030488' status='passed' stop='1705431033724'>
+                            <name>accountPage: preencherFormCadastro , "Alexandre", , </name>
+                            <title>accountPage: preencherFormCadastro , "Alexandre", , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431030488' status='passed' stop='1705431031637'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431031637' status='passed' stop='1705431032682'>
+                                    <name>I fill field "#customer_lastname", </name>
+                                    <title>I fill field "#customer_lastname", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431032682' status='passed' stop='1705431033724'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431033724' status='passed' stop='1705431036861'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431033724' status='passed' stop='1705431036861'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431033724' status='passed' stop='1705431034761'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431034761' status='passed' stop='1705431035820'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431035821' status='passed' stop='1705431036860'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431036861' status='passed' stop='1705431038319'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431036861' status='passed' stop='1705431038319'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431036861' status='passed' stop='1705431038319'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431038319' status='passed' stop='1705431038344'>
+                    <name>Then eu visualizo a seguinte mensagem "There are 2 errors" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There are 2 errors" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431038319' status='passed' stop='1705431038344'>
+                            <name>homePage: verificacaoTextoPagina "There are 2 errors"</name>
+                            <title>homePage: verificacaoTextoPagina "There are 2 errors"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431038319' status='passed' stop='1705431038344'>
+                                    <name>I see "There are 2 errors"</name>
+                                    <title>I see "There are 2 errors"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705431038630' status='passed' stop='1705431058285'>
+            <name>TC11 - Criação de usuário - Preenchendo somente os campos - fist name e last name -</name>
+            <title>TC11 - Criação de usuário - Preenchendo somente os campos - fist name e last name -</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705431039248' status='passed' stop='1705431046433'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431039248' status='passed' stop='1705431046433'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431039248' status='passed' stop='1705431046433'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431046433' status='passed' stop='1705431048187'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431046433' status='passed' stop='1705431048187'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431046433' status='passed' stop='1705431048186'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431048187' status='passed' stop='1705431049303'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431048187' status='passed' stop='1705431049303'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431048188' status='passed' stop='1705431049303'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431049303' status='passed' stop='1705431050360'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431049303' status='passed' stop='1705431050360'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431049303' status='passed' stop='1705431050360'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431050360' status='passed' stop='1705431053691'>
+                    <name>And ao  informar as informações: title "" fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "" fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431050360' status='passed' stop='1705431053691'>
+                            <name>accountPage: preencherFormCadastro , "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro , "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431050360' status='passed' stop='1705431051554'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431051555' status='passed' stop='1705431052649'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431052649' status='passed' stop='1705431053691'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431053691' status='passed' stop='1705431056833'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431053691' status='passed' stop='1705431056833'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431053691' status='passed' stop='1705431054729'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431054729' status='passed' stop='1705431055779'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431055780' status='passed' stop='1705431056833'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431056833' status='passed' stop='1705431058279'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431056833' status='passed' stop='1705431058279'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431056833' status='passed' stop='1705431058279'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431058279' status='passed' stop='1705431058285'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431058279' status='passed' stop='1705431058285'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431058279' status='passed' stop='1705431058285'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705431058573' status='passed' stop='1705431079286'>
+            <name>TC12 - Criação de usuário - indicando o tílulo saudação - Mr.</name>
+            <title>TC12 - Criação de usuário - indicando o tílulo saudação - Mr.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705431059189' status='passed' stop='1705431066418'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431059189' status='passed' stop='1705431066418'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431059189' status='passed' stop='1705431066418'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431066418' status='passed' stop='1705431068203'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431066418' status='passed' stop='1705431068203'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431066419' status='passed' stop='1705431068203'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431068203' status='passed' stop='1705431069337'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431068203' status='passed' stop='1705431069337'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431068204' status='passed' stop='1705431069337'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431069337' status='passed' stop='1705431070393'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431069337' status='passed' stop='1705431070393'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431069337' status='passed' stop='1705431070393'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431070393' status='passed' stop='1705431074648'>
+                    <name>And ao  informar as informações: title "Mr." fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "Mr." fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431070393' status='passed' stop='1705431074648'>
+                            <name>accountPage: preencherFormCadastro "Mr.", "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro "Mr.", "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431070393' status='passed' stop='1705431071435'>
+                                    <name>I check option "Mr."</name>
+                                    <title>I check option "Mr."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431071435' status='passed' stop='1705431072540'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431072540' status='passed' stop='1705431073608'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431073608' status='passed' stop='1705431074648'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431074648' status='passed' stop='1705431077791'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431074648' status='passed' stop='1705431077791'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431074648' status='passed' stop='1705431075695'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431075695' status='passed' stop='1705431076753'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431076753' status='passed' stop='1705431077791'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431077791' status='passed' stop='1705431079266'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431077791' status='passed' stop='1705431079266'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431077791' status='passed' stop='1705431079266'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431079266' status='passed' stop='1705431079286'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431079266' status='passed' stop='1705431079286'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431079266' status='passed' stop='1705431079286'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705431079568' status='passed' stop='1705431100280'>
+            <name>TC13 - Criação de usuário - indicando o tílulo saudação - Mrs.</name>
+            <title>TC13 - Criação de usuário - indicando o tílulo saudação - Mrs.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705431080192' status='passed' stop='1705431087383'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431080192' status='passed' stop='1705431087383'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431080192' status='passed' stop='1705431087383'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431087383' status='passed' stop='1705431089169'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431087383' status='passed' stop='1705431089169'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431087384' status='passed' stop='1705431089168'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431089169' status='passed' stop='1705431090287'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431089169' status='passed' stop='1705431090287'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431089169' status='passed' stop='1705431090286'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431090287' status='passed' stop='1705431091340'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431090287' status='passed' stop='1705431091340'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431090287' status='passed' stop='1705431091340'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431091340' status='passed' stop='1705431095696'>
+                    <name>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431091340' status='passed' stop='1705431095696'>
+                            <name>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431091340' status='passed' stop='1705431092398'>
+                                    <name>I check option "Mrs."</name>
+                                    <title>I check option "Mrs."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431092398' status='passed' stop='1705431093552'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431093552' status='passed' stop='1705431094641'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431094642' status='passed' stop='1705431095696'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431095696' status='passed' stop='1705431098802'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431095696' status='passed' stop='1705431098802'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431095696' status='passed' stop='1705431096737'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431096737' status='passed' stop='1705431097764'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431097765' status='passed' stop='1705431098802'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431098802' status='passed' stop='1705431100273'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431098802' status='passed' stop='1705431100273'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431098802' status='passed' stop='1705431100273'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431100273' status='passed' stop='1705431100280'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431100273' status='passed' stop='1705431100280'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431100273' status='passed' stop='1705431100280'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705431100553' status='passed' stop='1705431121458'>
+            <name>TC14 - Criação de usuário - Data nascimento inválida</name>
+            <title>TC14 - Criação de usuário - Data nascimento inválida</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705431101146' status='passed' stop='1705431108296'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431101146' status='passed' stop='1705431108296'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431101146' status='passed' stop='1705431108296'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431108296' status='passed' stop='1705431110078'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431108296' status='passed' stop='1705431110078'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431108296' status='passed' stop='1705431110078'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431110078' status='passed' stop='1705431111275'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431110078' status='passed' stop='1705431111275'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431110078' status='passed' stop='1705431111275'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431111275' status='passed' stop='1705431112359'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431111275' status='passed' stop='1705431112359'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431111275' status='passed' stop='1705431112359'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431112359' status='passed' stop='1705431116831'>
+                    <name>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431112359' status='passed' stop='1705431116831'>
+                            <name>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431112359' status='passed' stop='1705431113492'>
+                                    <name>I check option "Mrs."</name>
+                                    <title>I check option "Mrs."</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431113492' status='passed' stop='1705431114656'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431114656' status='passed' stop='1705431115761'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431115761' status='passed' stop='1705431116831'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431116831' status='passed' stop='1705431119943'>
+                    <name>And data de nascimento dia "30" mês "13" ano "1400" </name>
+                    <title>And data de nascimento dia "30" mês "13" ano "1400" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431116831' status='passed' stop='1705431119943'>
+                            <name>accountPage: preencherDataNascimento "30", "13", "1400"</name>
+                            <title>accountPage: preencherDataNascimento "30", "13", "1400"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431116831' status='passed' stop='1705431117865'>
+                                    <name>I select option "#days", "30"</name>
+                                    <title>I select option "#days", "30"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431117865' status='passed' stop='1705431118904'>
+                                    <name>I select option "months", "13"</name>
+                                    <title>I select option "months", "13"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431118904' status='passed' stop='1705431119943'>
+                                    <name>I select option "#years", "1400"</name>
+                                    <title>I select option "#years", "1400"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431119943' status='passed' stop='1705431121452'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431119943' status='passed' stop='1705431121452'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431119943' status='passed' stop='1705431121452'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431121452' status='passed' stop='1705431121458'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431121452' status='passed' stop='1705431121458'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431121452' status='passed' stop='1705431121458'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1705431121730' status='failed' stop='1705431141249'>
+            <name>TC15 - Criação de usuário -sucesso</name>
+            <title>TC15 - Criação de usuário -sucesso</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1705431122378' status='passed' stop='1705431129669'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431122378' status='passed' stop='1705431129669'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431122378' status='passed' stop='1705431129668'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431129669' status='passed' stop='1705431131365'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431129669' status='passed' stop='1705431131365'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431129669' status='passed' stop='1705431131365'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431131365' status='passed' stop='1705431132545'>
+                    <name>And ao informar o email "gerado_sistema" </name>
+                    <title>And ao informar o email "gerado_sistema" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431131365' status='passed' stop='1705431132545'>
+                            <name>accountPage: preecherEmail "gerado_sistema"</name>
+                            <title>accountPage: preecherEmail "gerado_sistema"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431131365' status='passed' stop='1705431132545'>
+                                    <name>I fill field "#email_create", "Shea.Schaden@yahoo.com"</name>
+                                    <title>I fill field "#email_create", "Shea.Schaden@yahoo.com"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431132545' status='passed' stop='1705431133613'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431132545' status='passed' stop='1705431133613'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431132545' status='passed' stop='1705431133613'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431133613' status='passed' stop='1705431137084'>
+                    <name>And ao  informar as informações: title "Mr" fist name "gerado_sistema" Last name "gerado_sistema" password "gerado_sistema" </name>
+                    <title>And ao  informar as informações: title "Mr" fist name "gerado_sistema" Last name "gerado_sistema" password "gerado_sistema" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431133613' status='passed' stop='1705431137084'>
+                            <name>accountPage: preencherFormCadastro "Mr", "gerado_sistema", "gerado_sistema", "gerado_sistema"</name>
+                            <title>accountPage: preencherFormCadastro "Mr", "gerado_sistema", "gerado_sistema", "gerado_sistema"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431133613' status='passed' stop='1705431134796'>
+                                    <name>I fill field "#customer_firstname", "Margarett"</name>
+                                    <title>I fill field "#customer_firstname", "Margarett"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431134796' status='passed' stop='1705431135947'>
+                                    <name>I fill field "#customer_lastname", "Runolfsdottir"</name>
+                                    <title>I fill field "#customer_lastname", "Runolfsdottir"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431135947' status='passed' stop='1705431137084'>
+                                    <name>I fill field "#passwd", "4LQtwzYJ4zDzYl6"</name>
+                                    <title>I fill field "#passwd", "4LQtwzYJ4zDzYl6"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431137084' status='passed' stop='1705431140204'>
+                    <name>And data de nascimento dia "14" mês "11" ano "1990" </name>
+                    <title>And data de nascimento dia "14" mês "11" ano "1990" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431137084' status='passed' stop='1705431140204'>
+                            <name>accountPage: preencherDataNascimento "14", "11", "1990"</name>
+                            <title>accountPage: preencherDataNascimento "14", "11", "1990"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431137085' status='passed' stop='1705431138128'>
+                                    <name>I select option "#days", "14"</name>
+                                    <title>I select option "#days", "14"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431138128' status='passed' stop='1705431139167'>
+                                    <name>I select option "months", "11"</name>
+                                    <title>I select option "months", "11"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431139167' status='passed' stop='1705431140203'>
+                                    <name>I select option "#years", "1990"</name>
+                                    <title>I select option "#years", "1990"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1705431140204' status='failed' stop='1705431141249'>
+                    <name>And aceito os temrmos: - Sign up for our newsletter! - "SIM" e - Receive special offers from our partners!- "SIM" </name>
+                    <title>And aceito os temrmos: - Sign up for our newsletter! - "SIM" e - Receive special offers from our partners!- "SIM" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1705431140204' status='failed' stop='1705431141249'>
+                            <name>accountPage: aceitarReceberInformacoes "SIM", "SIM"</name>
+                            <title>accountPage: aceitarReceberInformacoes "SIM", "SIM"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1705431140204' status='passed' stop='1705431141244'>
+                                    <name>I check option "#newsletter"</name>
+                                    <title>I check option "#newsletter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1705431141245' status='failed' stop='1705431141248'>
+                                    <name>I check option "#optin"</name>
+                                    <title>I check option "#optin"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='a6b3cc67-e715-4342-be9d-964d7c6f43c7-attachment.png' type='image/png' size='39658'/>
+            </attachments>
+            <failure>
+                <message>Checkbox or radio "#optin" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Checkbox or radio "#optin" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\projeto\codeceptJS_test_automacao\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\projeto\codeceptJS_test_automacao\node_modules\codeceptjs\lib\helper\Playwright.js:2812:11)
+                    at Playwright._locateCheckable (C:\projeto\codeceptJS_test_automacao\node_modules\codeceptjs\lib\helper\Playwright.js:1066:5)
+                    at async Playwright.checkOption (C:\projeto\codeceptJS_test_automacao\node_modules\codeceptjs\lib\helper\Playwright.js:1350:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

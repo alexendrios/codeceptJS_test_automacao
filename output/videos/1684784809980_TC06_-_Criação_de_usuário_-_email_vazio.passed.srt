@@ -1,0 +1,20 @@
+1
+00:00:00,460 --> 00:00:06,819
+I.amOnPage(/)
+
+2
+00:00:06,820 --> 00:00:08,768
+I.click(Sign in)
+
+3
+00:00:08,769 --> 00:00:09,943
+I.fillField(#email_create,)
+
+4
+00:00:09,943 --> 00:00:11,109
+I.click(Create an account)
+
+5
+00:00:11,109 --> 00:00:11,225
+I.see(Invalid email address.)
+

@@ -1,0 +1,48 @@
+1
+00:00:00,483 --> 00:00:06,806
+I.amOnPage(/)
+
+2
+00:00:06,806 --> 00:00:08,669
+I.click(Sign in)
+
+3
+00:00:08,670 --> 00:00:09,991
+I.fillField(#email_create,ale1@uorak.com)
+
+4
+00:00:09,992 --> 00:00:11,158
+I.click(Create an account)
+
+5
+00:00:11,158 --> 00:00:12,428
+I.fillField(#customer_firstname,Alexandre)
+
+6
+00:00:12,429 --> 00:00:13,643
+I.fillField(#customer_lastname,Santos)
+
+7
+00:00:13,643 --> 00:00:14,788
+I.fillField(#passwd,)
+
+8
+00:00:14,788 --> 00:00:15,921
+I.selectOption(#days,)
+
+9
+00:00:15,921 --> 00:00:17,053
+I.selectOption(months,)
+
+10
+00:00:17,053 --> 00:00:18,194
+I.selectOption(#years,)
+
+11
+00:00:18,194 --> 00:00:19,822
+I.click(Register)
+
+12
+00:00:19,822 --> 00:00:19,932
+I.see(passwd is required)
+

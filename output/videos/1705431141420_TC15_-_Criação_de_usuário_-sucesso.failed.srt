@@ -1,0 +1,48 @@
+1
+00:00:00,648 --> 00:00:07,938
+I.amOnPage(/)
+
+2
+00:00:07,939 --> 00:00:09,635
+I.click(Sign in)
+
+3
+00:00:09,635 --> 00:00:10,815
+I.fillField(#email_create,Shea.Schaden@yahoo.com)
+
+4
+00:00:10,815 --> 00:00:11,883
+I.click(Create an account)
+
+5
+00:00:11,883 --> 00:00:13,066
+I.fillField(#customer_firstname,Margarett)
+
+6
+00:00:13,066 --> 00:00:14,217
+I.fillField(#customer_lastname,Runolfsdottir)
+
+7
+00:00:14,217 --> 00:00:15,354
+I.fillField(#passwd,4LQtwzYJ4zDzYl6)
+
+8
+00:00:15,355 --> 00:00:16,398
+I.selectOption(#days,14)
+
+9
+00:00:16,398 --> 00:00:17,437
+I.selectOption(months,11)
+
+10
+00:00:17,437 --> 00:00:18,473
+I.selectOption(#years,1990)
+
+11
+00:00:18,474 --> 00:00:19,514
+I.checkOption(#newsletter)
+
+12
+00:00:19,515 --> 00:00:19,518
+I.checkOption(#optin)
+

@@ -1,0 +1,56 @@
+1
+00:00:00,468 --> 00:00:06,947
+I.amOnPage(/)
+
+2
+00:00:06,947 --> 00:00:08,839
+I.click(Sign in)
+
+3
+00:00:08,839 --> 00:00:10,260
+I.fillField(#email_create,Jerome35@hotmail.com)
+
+4
+00:00:10,260 --> 00:00:11,427
+I.click(Create an account)
+
+5
+00:00:11,427 --> 00:00:12,636
+I.fillField(#customer_firstname,Marta)
+
+6
+00:00:12,636 --> 00:00:13,875
+I.fillField(#customer_lastname,Lind)
+
+7
+00:00:13,876 --> 00:00:15,177
+I.fillField(#passwd,RF0fkfWbzOfKUWg)
+
+8
+00:00:15,177 --> 00:00:16,307
+I.selectOption(#days,14)
+
+9
+00:00:16,307 --> 00:00:17,459
+I.selectOption(months,11)
+
+10
+00:00:17,459 --> 00:00:18,625
+I.selectOption(#years,1990)
+
+11
+00:00:18,626 --> 00:00:19,797
+I.checkOption(#newsletter)
+
+12
+00:00:19,797 --> 00:00:20,944
+I.checkOption(#optin)
+
+13
+00:00:20,944 --> 00:00:25,160
+I.click(Register)
+
+14
+00:00:25,160 --> 00:00:25,278
+I.see(Your account has been created.)
+

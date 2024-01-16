@@ -1,0 +1,767 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684850341225' stop='1684850418072'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1684850341227' status='passed' stop='1684850356676'>
+            <name>TC01 - Logar na aplicação - Email e senha em Branco</name>
+            <title>TC01 - Logar na aplicação - Email e senha em Branco</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850342799' status='passed' stop='1684850350219'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850342799' status='passed' stop='1684850350219'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850342799' status='passed' stop='1684850350218'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='0eaa29a2-24c1-4dd1-90ef-4d6ba633adbc-attachment.png' type='image/png' size='777196'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850350219' status='passed' stop='1684850352210'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850350219' status='passed' stop='1684850352210'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850350219' status='passed' stop='1684850352210'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='2e87cb64-20b1-450d-85d8-e12f049138b2-attachment.png' type='image/png' size='110972'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850352210' status='passed' stop='1684850352351'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850352211' status='passed' stop='1684850352351'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850352211' status='passed' stop='1684850352351'>
+                                    <name>I see "AUTHENTICATION"</name>
+                                    <title>I see "AUTHENTICATION"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "AUTHENTICATION"' source='15b25b95-785a-44b8-833f-24b21f7798e3-attachment.png' type='image/png' size='110972'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850352351' status='passed' stop='1684850354820'>
+                    <name>And ao informar o usuário "" e senha "" </name>
+                    <title>And ao informar o usuário "" e senha "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850352351' status='passed' stop='1684850354820'>
+                            <name>homePage: preencherFormLogin , </name>
+                            <title>homePage: preencherFormLogin , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850352352' status='passed' stop='1684850353603'>
+                                    <name>I fill field "#email", </name>
+                                    <title>I fill field "#email", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email", ' source='ed385f94-a5d0-4326-b534-4fe2719e84b7-attachment.png' type='image/png' size='112850'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850353603' status='passed' stop='1684850354820'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='f692e747-3429-4899-9577-84d87ca1f07b-attachment.png' type='image/png' size='113374'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850354820' status='passed' stop='1684850356537'>
+                    <name>And ap clicar no botão Sign in </name>
+                    <title>And ap clicar no botão Sign in </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850354820' status='passed' stop='1684850356537'>
+                            <name>homePage: logar </name>
+                            <title>homePage: logar </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850354820' status='passed' stop='1684850356537'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "#SubmitLogin"' source='933a3f76-f533-4835-b46b-d8bda46f5710-attachment.png' type='image/png' size='110516'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850356537' status='passed' stop='1684850356676'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850356537' status='passed' stop='1684850356676'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850356538' status='passed' stop='1684850356676'>
+                                    <name>I see "There is 1 error"</name>
+                                    <title>I see "There is 1 error"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "There is 1 error"' source='2322cf15-08c9-4e5f-af4b-8069bed2d0c5-attachment.png' type='image/png' size='110516'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850357071' status='passed' stop='1684850371444'>
+            <name>TC02 - Logar na aplicação - Email preenchico e senha em Branco</name>
+            <title>TC02 - Logar na aplicação - Email preenchico e senha em Branco</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850357936' status='passed' stop='1684850364710'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850357936' status='passed' stop='1684850364710'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850357936' status='passed' stop='1684850364709'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='f24cfbd3-25a0-41f6-8275-d9e11de41a10-attachment.png' type='image/png' size='773593'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850364710' status='passed' stop='1684850366809'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850364710' status='passed' stop='1684850366809'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850364710' status='passed' stop='1684850366809'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='0e32d52e-7019-4b2d-9af1-1ad0f36ce06e-attachment.png' type='image/png' size='110972'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850366809' status='passed' stop='1684850366958'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850366809' status='passed' stop='1684850366958'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850366809' status='passed' stop='1684850366958'>
+                                    <name>I see "AUTHENTICATION"</name>
+                                    <title>I see "AUTHENTICATION"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "AUTHENTICATION"' source='556aff39-b17e-4cb8-8c39-7392eb0a2946-attachment.png' type='image/png' size='110972'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850366958' status='passed' stop='1684850369557'>
+                    <name>And ao informar o usuário "ale@uorak.com" e senha "" </name>
+                    <title>And ao informar o usuário "ale@uorak.com" e senha "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850366958' status='passed' stop='1684850369557'>
+                            <name>homePage: preencherFormLogin "ale@uorak.com", </name>
+                            <title>homePage: preencherFormLogin "ale@uorak.com", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850366958' status='passed' stop='1684850368332'>
+                                    <name>I fill field "#email", "ale@uorak.com"</name>
+                                    <title>I fill field "#email", "ale@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email", "ale@uorak.com"' source='875ac5d9-addc-474d-a435-db0acbe3bea0-attachment.png' type='image/png' size='114139'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850368333' status='passed' stop='1684850369557'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='bebddf66-6386-4553-9048-e20da7fb533c-attachment.png' type='image/png' size='114575'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850369557' status='passed' stop='1684850371298'>
+                    <name>And ap clicar no botão Sign in </name>
+                    <title>And ap clicar no botão Sign in </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850369557' status='passed' stop='1684850371298'>
+                            <name>homePage: logar </name>
+                            <title>homePage: logar </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850369557' status='passed' stop='1684850371298'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "#SubmitLogin"' source='12e60b08-d22f-4798-853e-1b8ccd6e0f1c-attachment.png' type='image/png' size='111549'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850371298' status='passed' stop='1684850371444'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850371298' status='passed' stop='1684850371444'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850371298' status='passed' stop='1684850371444'>
+                                    <name>I see "There is 1 error"</name>
+                                    <title>I see "There is 1 error"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "There is 1 error"' source='f13912f9-a06f-4f30-9e95-bdce8ba6a9a3-attachment.png' type='image/png' size='111549'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850371765' status='passed' stop='1684850386190'>
+            <name>TC03 - Logar na aplicação - Senha inválida</name>
+            <title>TC03 - Logar na aplicação - Senha inválida</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850372729' status='passed' stop='1684850379400'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850372729' status='passed' stop='1684850379400'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850372730' status='passed' stop='1684850379400'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='3c8cc3b0-1686-44f7-a158-fdb761a7b0ed-attachment.png' type='image/png' size='772102'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850379400' status='passed' stop='1684850381492'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850379400' status='passed' stop='1684850381492'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850379400' status='passed' stop='1684850381492'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='c03759a4-7a44-4be7-8aaf-a1e72b2ec509-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850381492' status='passed' stop='1684850381661'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850381492' status='passed' stop='1684850381661'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850381492' status='passed' stop='1684850381660'>
+                                    <name>I see "AUTHENTICATION"</name>
+                                    <title>I see "AUTHENTICATION"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "AUTHENTICATION"' source='3ef4f0a2-ed68-428c-a06b-08cf886c4ae6-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850381661' status='passed' stop='1684850384306'>
+                    <name>And ao informar o usuário "ale@uorak.com" e senha "futuro09" </name>
+                    <title>And ao informar o usuário "ale@uorak.com" e senha "futuro09" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850381661' status='passed' stop='1684850384306'>
+                            <name>homePage: preencherFormLogin "ale@uorak.com", "futuro09"</name>
+                            <title>homePage: preencherFormLogin "ale@uorak.com", "futuro09"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850381661' status='passed' stop='1684850383044'>
+                                    <name>I fill field "#email", "ale@uorak.com"</name>
+                                    <title>I fill field "#email", "ale@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email", "ale@uorak.com"' source='33db2fbb-33b7-4797-a0e4-602e5b28e7d1-attachment.png' type='image/png' size='113355'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850383045' status='passed' stop='1684850384306'>
+                                    <name>I fill field "#passwd", "futuro09"</name>
+                                    <title>I fill field "#passwd", "futuro09"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", "futuro09"' source='6b8321d8-82af-4e36-90de-4cd97cc7900b-attachment.png' type='image/png' size='114016'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850384306' status='passed' stop='1684850386030'>
+                    <name>And ap clicar no botão Sign in </name>
+                    <title>And ap clicar no botão Sign in </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850384306' status='passed' stop='1684850386030'>
+                            <name>homePage: logar </name>
+                            <title>homePage: logar </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850384306' status='passed' stop='1684850386030'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "#SubmitLogin"' source='165b4481-1694-4e76-84a8-e25fa25194a1-attachment.png' type='image/png' size='110474'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850386030' status='passed' stop='1684850386190'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850386030' status='passed' stop='1684850386190'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850386030' status='passed' stop='1684850386190'>
+                                    <name>I see "There is 1 error"</name>
+                                    <title>I see "There is 1 error"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "There is 1 error"' source='8ba61729-0dc9-4aea-bd1b-b2e71bfcac05-attachment.png' type='image/png' size='110474'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850386723' status='passed' stop='1684850402162'>
+            <name>TC04 - Logar na aplicação - Usuário não cadastrado na aplicação</name>
+            <title>TC04 - Logar na aplicação - Usuário não cadastrado na aplicação</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850387984' status='passed' stop='1684850395352'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850387984' status='passed' stop='1684850395352'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850387984' status='passed' stop='1684850395351'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='69410033-a3ed-4a1a-a7d4-1b62b027722e-attachment.png' type='image/png' size='772102'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850395352' status='passed' stop='1684850397429'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850395352' status='passed' stop='1684850397429'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850395352' status='passed' stop='1684850397429'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='48f19b37-003a-4521-a494-fae251a13a28-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850397429' status='passed' stop='1684850397594'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850397429' status='passed' stop='1684850397594'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850397430' status='passed' stop='1684850397593'>
+                                    <name>I see "AUTHENTICATION"</name>
+                                    <title>I see "AUTHENTICATION"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "AUTHENTICATION"' source='b3f4f5c1-86f3-46c5-a6b3-4d510a45183b-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850397594' status='passed' stop='1684850400249'>
+                    <name>And ao informar o usuário "ale1@uorak.com" e senha "12345678" </name>
+                    <title>And ao informar o usuário "ale1@uorak.com" e senha "12345678" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850397594' status='passed' stop='1684850400249'>
+                            <name>homePage: preencherFormLogin "ale1@uorak.com", "12345678"</name>
+                            <title>homePage: preencherFormLogin "ale1@uorak.com", "12345678"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850397594' status='passed' stop='1684850398990'>
+                                    <name>I fill field "#email", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email", "ale1@uorak.com"' source='265ffeb7-1107-41f3-9444-7ca681753319-attachment.png' type='image/png' size='113432'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850398990' status='passed' stop='1684850400248'>
+                                    <name>I fill field "#passwd", "12345678"</name>
+                                    <title>I fill field "#passwd", "12345678"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", "12345678"' source='70452972-29bb-4812-b8a8-49d46fc10b06-attachment.png' type='image/png' size='114100'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850400249' status='passed' stop='1684850401974'>
+                    <name>And ap clicar no botão Sign in </name>
+                    <title>And ap clicar no botão Sign in </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850400249' status='passed' stop='1684850401974'>
+                            <name>homePage: logar </name>
+                            <title>homePage: logar </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850400249' status='passed' stop='1684850401974'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "#SubmitLogin"' source='52a906b8-02b0-4b97-800f-3095d1acf089-attachment.png' type='image/png' size='110546'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850401974' status='passed' stop='1684850402162'>
+                    <name>Then eu visualizo a seguinte mensagem "There is 1 error" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There is 1 error" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850401974' status='passed' stop='1684850402162'>
+                            <name>homePage: verificacaoTextoPagina "There is 1 error"</name>
+                            <title>homePage: verificacaoTextoPagina "There is 1 error"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850401974' status='passed' stop='1684850402161'>
+                                    <name>I see "There is 1 error"</name>
+                                    <title>I see "There is 1 error"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "There is 1 error"' source='d1923473-8d64-4a37-8199-32440077f9de-attachment.png' type='image/png' size='110546'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850402711' status='passed' stop='1684850417724'>
+            <name>TC05 - Logar na aplicação - Login com sucesso</name>
+            <title>TC05 - Logar na aplicação - Login com sucesso</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850404091' status='passed' stop='1684850410731'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850404091' status='passed' stop='1684850410731'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850404092' status='passed' stop='1684850410731'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='db3cf71f-769f-44d2-9abc-e6b927465259-attachment.png' type='image/png' size='772102'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850410731' status='passed' stop='1684850412780'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850410731' status='passed' stop='1684850412780'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850410732' status='passed' stop='1684850412779'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='14618e78-a5ba-42ed-a986-8d73e96e524f-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850412780' status='passed' stop='1684850412916'>
+                    <name>Then eu visualizo a seguinte mensagem "MY ACCOUNT" </name>
+                    <title>Then eu visualizo a seguinte mensagem "MY ACCOUNT" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850412780' status='passed' stop='1684850412916'>
+                            <name>homePage: verificacaoTextoPagina "MY ACCOUNT"</name>
+                            <title>homePage: verificacaoTextoPagina "MY ACCOUNT"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850412780' status='passed' stop='1684850412916'>
+                                    <name>I see "AUTHENTICATION"</name>
+                                    <title>I see "AUTHENTICATION"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "AUTHENTICATION"' source='a5d92b5f-97e8-4c3a-b282-6df73c33e485-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850412916' status='passed' stop='1684850415502'>
+                    <name>And ao informar o usuário "ale@uorak.com" e senha "12345678" </name>
+                    <title>And ao informar o usuário "ale@uorak.com" e senha "12345678" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850412916' status='passed' stop='1684850415502'>
+                            <name>homePage: preencherFormLogin "ale@uorak.com", "12345678"</name>
+                            <title>homePage: preencherFormLogin "ale@uorak.com", "12345678"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850412916' status='passed' stop='1684850414245'>
+                                    <name>I fill field "#email", "ale@uorak.com"</name>
+                                    <title>I fill field "#email", "ale@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email", "ale@uorak.com"' source='16b9f58f-41f4-4ebb-8457-504869f52395-attachment.png' type='image/png' size='113355'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850414245' status='passed' stop='1684850415502'>
+                                    <name>I fill field "#passwd", "12345678"</name>
+                                    <title>I fill field "#passwd", "12345678"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", "12345678"' source='4418912c-a5e1-4983-b0c3-6c671d49db16-attachment.png' type='image/png' size='114016'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850415502' status='passed' stop='1684850417548'>
+                    <name>And ap clicar no botão Sign in </name>
+                    <title>And ap clicar no botão Sign in </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850415502' status='passed' stop='1684850417548'>
+                            <name>homePage: logar </name>
+                            <title>homePage: logar </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850415502' status='passed' stop='1684850417548'>
+                                    <name>I click "#SubmitLogin"</name>
+                                    <title>I click "#SubmitLogin"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "#SubmitLogin"' source='2c43e3b6-57c8-4389-bef4-ced64a732106-attachment.png' type='image/png' size='119794'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850417548' status='passed' stop='1684850417724'>
+                    <name>Then eu visualizo a seguinte mensagem "MY ACCOUNT" </name>
+                    <title>Then eu visualizo a seguinte mensagem "MY ACCOUNT" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850417548' status='passed' stop='1684850417724'>
+                            <name>homePage: verificacaoTextoPagina "MY ACCOUNT"</name>
+                            <title>homePage: verificacaoTextoPagina "MY ACCOUNT"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850417548' status='passed' stop='1684850417724'>
+                                    <name>I see "MY ACCOUNT"</name>
+                                    <title>I see "MY ACCOUNT"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "MY ACCOUNT"' source='fc0ee18c-0430-4578-be11-1282143e9587-attachment.png' type='image/png' size='119794'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

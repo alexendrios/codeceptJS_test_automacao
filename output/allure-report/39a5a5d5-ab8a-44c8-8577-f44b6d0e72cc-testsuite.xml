@@ -1,0 +1,1967 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684850418089' stop='1684850617927'>
+    <name>Cadastro de usuário</name>
+    <title>Cadastro de usuário</title>
+    <test-cases>
+        <test-case start='1684850418089' status='passed' stop='1684850430505'>
+            <name>TC06 - Criação de usuário - email vazio</name>
+            <title>TC06 - Criação de usuário - email vazio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850418839' status='passed' stop='1684850425999'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850418839' status='passed' stop='1684850425999'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850418840' status='passed' stop='1684850425999'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='295c3d4a-e6e9-469e-a306-6755e51bcad4-attachment.png' type='image/png' size='773593'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850425999' status='passed' stop='1684850427978'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850425999' status='passed' stop='1684850427978'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850426000' status='passed' stop='1684850427978'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='d2cd46f2-1496-4201-ad4e-993ac1080bdb-attachment.png' type='image/png' size='110972'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850427978' status='passed' stop='1684850429164'>
+                    <name>And ao informar o email "" </name>
+                    <title>And ao informar o email "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850427978' status='passed' stop='1684850429164'>
+                            <name>accountPage: preecherEmail </name>
+                            <title>accountPage: preecherEmail </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850427978' status='passed' stop='1684850429164'>
+                                    <name>I fill field "#email_create", </name>
+                                    <title>I fill field "#email_create", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", ' source='5fb6a92f-df0a-42e8-9c35-424a3d4ae6da-attachment.png' type='image/png' size='112752'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850429164' status='passed' stop='1684850430365'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850429164' status='passed' stop='1684850430365'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850429164' status='passed' stop='1684850430365'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='d16210eb-7f10-46aa-807f-9411336f647e-attachment.png' type='image/png' size='111685'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850430365' status='passed' stop='1684850430505'>
+                    <name>Then eu visualizo a seguinte mensagem "Invalid email address." </name>
+                    <title>Then eu visualizo a seguinte mensagem "Invalid email address." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850430365' status='passed' stop='1684850430505'>
+                            <name>homePage: verificacaoTextoPagina "Invalid email address."</name>
+                            <title>homePage: verificacaoTextoPagina "Invalid email address."</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850430365' status='passed' stop='1684850430505'>
+                                    <name>I see "Invalid email address."</name>
+                                    <title>I see "Invalid email address."</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Invalid email address."' source='91d31121-19ce-4401-8365-1cb8341ecf3b-attachment.png' type='image/png' size='111685'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850430862' status='passed' stop='1684850443188'>
+            <name>TC07 - Criação de usuário - email imválido</name>
+            <title>TC07 - Criação de usuário - email imválido</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850431692' status='passed' stop='1684850438464'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850431692' status='passed' stop='1684850438464'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850431692' status='passed' stop='1684850438464'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='37a86c9d-72e9-41bf-a969-0c2de1cb4fe3-attachment.png' type='image/png' size='772110'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850438464' status='passed' stop='1684850440458'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850438464' status='passed' stop='1684850440458'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850438464' status='passed' stop='1684850440458'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='e17aa56c-7ef8-4269-9b63-cc2eb4aa35d5-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850440458' status='passed' stop='1684850441836'>
+                    <name>And ao informar o email "ale1.uorak,com" </name>
+                    <title>And ao informar o email "ale1.uorak,com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850440458' status='passed' stop='1684850441836'>
+                            <name>accountPage: preecherEmail "ale1.uorak,com"</name>
+                            <title>accountPage: preecherEmail "ale1.uorak,com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850440458' status='passed' stop='1684850441836'>
+                                    <name>I fill field "#email_create", "ale1.uorak,com"</name>
+                                    <title>I fill field "#email_create", "ale1.uorak,com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1.uorak,com"' source='529b5415-5304-4f01-b2db-f9ea1d47307a-attachment.png' type='image/png' size='112843'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850441836' status='passed' stop='1684850443034'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850441836' status='passed' stop='1684850443034'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850441836' status='passed' stop='1684850443034'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='8e4b54f1-f433-4b4a-83b8-2ceb2c86a6a5-attachment.png' type='image/png' size='111769'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850443034' status='passed' stop='1684850443188'>
+                    <name>Then eu visualizo a seguinte mensagem "Invalid email address." </name>
+                    <title>Then eu visualizo a seguinte mensagem "Invalid email address." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850443034' status='passed' stop='1684850443188'>
+                            <name>homePage: verificacaoTextoPagina "Invalid email address."</name>
+                            <title>homePage: verificacaoTextoPagina "Invalid email address."</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850443034' status='passed' stop='1684850443188'>
+                                    <name>I see "Invalid email address."</name>
+                                    <title>I see "Invalid email address."</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Invalid email address."' source='7e43af8e-f39c-4771-8c4e-c62e95acccf8-attachment.png' type='image/png' size='111769'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850443525' status='passed' stop='1684850455748'>
+            <name>TC08 - Criação de usuário - email válido</name>
+            <title>TC08 - Criação de usuário - email válido</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850444288' status='passed' stop='1684850450961'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850444288' status='passed' stop='1684850450961'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850444288' status='passed' stop='1684850450961'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='132646e8-f625-447f-bf22-efa4341cc43e-attachment.png' type='image/png' size='772102'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850450961' status='passed' stop='1684850453010'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850450961' status='passed' stop='1684850453010'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850450961' status='passed' stop='1684850453009'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='7c08dcec-94a3-476a-8c24-a15d277da5c1-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850453010' status='passed' stop='1684850454357'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850453010' status='passed' stop='1684850454357'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850453010' status='passed' stop='1684850454356'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1@uorak.com"' source='bdb737e5-4159-489c-8733-12b9b3d1ee96-attachment.png' type='image/png' size='113242'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850454357' status='passed' stop='1684850455566'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850454357' status='passed' stop='1684850455566'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850454357' status='passed' stop='1684850455566'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='62b95a4d-6ea5-4272-88e1-094bc7061d76-attachment.png' type='image/png' size='102443'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850455566' status='passed' stop='1684850455748'>
+                    <name>Then eu visualizo a seguinte mensagem "YOUR PERSONAL INFORMATION" </name>
+                    <title>Then eu visualizo a seguinte mensagem "YOUR PERSONAL INFORMATION" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850455566' status='passed' stop='1684850455748'>
+                            <name>homePage: verificacaoTextoPagina "YOUR PERSONAL INFORMATION"</name>
+                            <title>homePage: verificacaoTextoPagina "YOUR PERSONAL INFORMATION"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850455566' status='passed' stop='1684850455748'>
+                                    <name>I see "YOUR PERSONAL INFORMATION"</name>
+                                    <title>I see "YOUR PERSONAL INFORMATION"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "YOUR PERSONAL INFORMATION"' source='ec526303-e173-4416-9525-6e43350fe6eb-attachment.png' type='image/png' size='103563'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850456037' status='passed' stop='1684850477249'>
+            <name>TC09 - Criação de usuário - Informações Em branco</name>
+            <title>TC09 - Criação de usuário - Informações Em branco</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850456807' status='passed' stop='1684850463410'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850456807' status='passed' stop='1684850463410'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850456807' status='passed' stop='1684850463410'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='1a6046af-eee9-49fd-b3a4-ffb0ec06cc59-attachment.png' type='image/png' size='776741'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850463410' status='passed' stop='1684850465520'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850463410' status='passed' stop='1684850465520'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850463410' status='passed' stop='1684850465520'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='167672d4-93bb-4305-b451-74521f83e098-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850465520' status='passed' stop='1684850466883'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850465520' status='passed' stop='1684850466883'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850465521' status='passed' stop='1684850466883'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1@uorak.com"' source='e9bb5c65-fcf2-4180-b2c2-24dc302bcba5-attachment.png' type='image/png' size='113242'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850466883' status='passed' stop='1684850468130'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850466883' status='passed' stop='1684850468130'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850466883' status='passed' stop='1684850468130'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='df06acb1-df9c-42a8-80ce-13107900e888-attachment.png' type='image/png' size='102215'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850468130' status='passed' stop='1684850471813'>
+                    <name>And ao  informar as informações: title "" fist name "" Last name "" password "" </name>
+                    <title>And ao  informar as informações: title "" fist name "" Last name "" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850468130' status='passed' stop='1684850471813'>
+                            <name>accountPage: preencherFormCadastro , , , </name>
+                            <title>accountPage: preencherFormCadastro , , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850468130' status='passed' stop='1684850469381'>
+                                    <name>I fill field "#customer_firstname", </name>
+                                    <title>I fill field "#customer_firstname", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_firstname", ' source='cc6bb34e-29cb-40ed-b9ed-5283cf517269-attachment.png' type='image/png' size='104655'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850469381' status='passed' stop='1684850470593'>
+                                    <name>I fill field "#customer_lastname", </name>
+                                    <title>I fill field "#customer_lastname", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_lastname", ' source='53542fe3-66ab-470b-b90e-d5225fb5b996-attachment.png' type='image/png' size='105309'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850470593' status='passed' stop='1684850471813'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='2131df82-831f-4b67-a174-f159afcce36b-attachment.png' type='image/png' size='39058'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850471813' status='passed' stop='1684850475331'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850471813' status='passed' stop='1684850475331'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850471813' status='passed' stop='1684850472993'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#days", ' source='3ce0702f-8703-48ec-bde1-a47d5dad5b5e-attachment.png' type='image/png' size='39058'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850472993' status='passed' stop='1684850474164'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "months", ' source='86654a40-d6f0-491d-af8a-4a8caadc0fc9-attachment.png' type='image/png' size='39058'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850474164' status='passed' stop='1684850475331'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#years", ' source='c8edab1a-1e57-4581-8791-16ed3b877911-attachment.png' type='image/png' size='39058'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850475331' status='passed' stop='1684850477050'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850475331' status='passed' stop='1684850477050'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850475331' status='passed' stop='1684850477050'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Register"' source='4189cc79-6ffb-4da5-ab77-a5f0eeedf043-attachment.png' type='image/png' size='110857'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850477050' status='passed' stop='1684850477249'>
+                    <name>Then eu visualizo a seguinte mensagem "There are 3 errors" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There are 3 errors" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850477050' status='passed' stop='1684850477249'>
+                            <name>homePage: verificacaoTextoPagina "There are 3 errors"</name>
+                            <title>homePage: verificacaoTextoPagina "There are 3 errors"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850477050' status='passed' stop='1684850477249'>
+                                    <name>I see "There are 3 errors"</name>
+                                    <title>I see "There are 3 errors"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "There are 3 errors"' source='b4706b8f-c27f-4134-8630-1410ee3cb7ef-attachment.png' type='image/png' size='110857'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850477686' status='passed' stop='1684850499150'>
+            <name>TC10 - Criação de usuário - Preenchendo somente o campo - fist name -</name>
+            <title>TC10 - Criação de usuário - Preenchendo somente o campo - fist name -</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850478663' status='passed' stop='1684850485280'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850478663' status='passed' stop='1684850485280'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850478663' status='passed' stop='1684850485280'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='52f6d04e-59f2-4e38-b34a-7e245514793c-attachment.png' type='image/png' size='772102'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850485280' status='passed' stop='1684850487325'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850485280' status='passed' stop='1684850487325'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850485281' status='passed' stop='1684850487325'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='db868d8c-010f-40e7-b94b-dbd356046628-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850487325' status='passed' stop='1684850488693'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850487325' status='passed' stop='1684850488693'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850487325' status='passed' stop='1684850488693'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1@uorak.com"' source='cd33bc14-edf2-43f0-b87e-b94cd4cae132-attachment.png' type='image/png' size='113242'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850488693' status='passed' stop='1684850489955'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850488693' status='passed' stop='1684850489955'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850488693' status='passed' stop='1684850489955'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='bcfe5bd1-1daf-4f5f-9f97-c5c7a1e020e9-attachment.png' type='image/png' size='91894'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850489955' status='passed' stop='1684850493801'>
+                    <name>And ao  informar as informações: title "" fist name "Alexandre" Last name "" password "" </name>
+                    <title>And ao  informar as informações: title "" fist name "Alexandre" Last name "" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850489955' status='passed' stop='1684850493801'>
+                            <name>accountPage: preencherFormCadastro , "Alexandre", , </name>
+                            <title>accountPage: preencherFormCadastro , "Alexandre", , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850489955' status='passed' stop='1684850491360'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_firstname", "Alexandre"' source='16572edd-6a6f-4193-bc80-69ca67848534-attachment.png' type='image/png' size='105696'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850491360' status='passed' stop='1684850492599'>
+                                    <name>I fill field "#customer_lastname", </name>
+                                    <title>I fill field "#customer_lastname", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_lastname", ' source='0c68db03-ff9e-4a91-9bf6-9010bab6548a-attachment.png' type='image/png' size='106227'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850492600' status='passed' stop='1684850493801'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='b3db5a5e-c037-4087-9f01-6b8e013f241f-attachment.png' type='image/png' size='40040'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850493801' status='passed' stop='1684850497323'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850493801' status='passed' stop='1684850497323'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850493801' status='passed' stop='1684850494987'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#days", ' source='0c7166ca-2b05-4d1b-9aaf-93b7df0a6471-attachment.png' type='image/png' size='40040'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850494987' status='passed' stop='1684850496160'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "months", ' source='e7ae5d24-9699-4449-9692-5c543ce4f3c5-attachment.png' type='image/png' size='40040'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850496160' status='passed' stop='1684850497323'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#years", ' source='33bb29dd-f651-43aa-b5d2-f6002b3f58dc-attachment.png' type='image/png' size='40040'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850497323' status='passed' stop='1684850498996'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850497323' status='passed' stop='1684850498996'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850497323' status='passed' stop='1684850498995'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Register"' source='0584d62d-60c8-4719-9c69-915334526f6b-attachment.png' type='image/png' size='108993'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850498996' status='passed' stop='1684850499150'>
+                    <name>Then eu visualizo a seguinte mensagem "There are 2 errors" </name>
+                    <title>Then eu visualizo a seguinte mensagem "There are 2 errors" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850498996' status='passed' stop='1684850499150'>
+                            <name>homePage: verificacaoTextoPagina "There are 2 errors"</name>
+                            <title>homePage: verificacaoTextoPagina "There are 2 errors"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850498996' status='passed' stop='1684850499150'>
+                                    <name>I see "There are 2 errors"</name>
+                                    <title>I see "There are 2 errors"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "There are 2 errors"' source='9942d8bf-8800-4ce9-ba15-d080997b322c-attachment.png' type='image/png' size='108993'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850499626' status='passed' stop='1684850521100'>
+            <name>TC11 - Criação de usuário - Preenchendo somente os campos - fist name e last name -</name>
+            <title>TC11 - Criação de usuário - Preenchendo somente os campos - fist name e last name -</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850500662' status='passed' stop='1684850507132'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850500662' status='passed' stop='1684850507132'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850500662' status='passed' stop='1684850507132'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='8a945c5d-7505-4f7d-96ec-672f6e5f266a-attachment.png' type='image/png' size='773593'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850507132' status='passed' stop='1684850509105'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850507132' status='passed' stop='1684850509105'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850507132' status='passed' stop='1684850509105'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='763043e3-e2e0-4ab2-9a30-b58c236bc11e-attachment.png' type='image/png' size='110972'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850509105' status='passed' stop='1684850510455'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850509105' status='passed' stop='1684850510455'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850509105' status='passed' stop='1684850510455'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1@uorak.com"' source='4fbb5e79-df2c-43d2-b5d4-ac57ed71b3f1-attachment.png' type='image/png' size='114115'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850510455' status='passed' stop='1684850511700'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850510455' status='passed' stop='1684850511700'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850510455' status='passed' stop='1684850511700'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='a0e964f3-4d1f-4943-877b-f0c10c0092d3-attachment.png' type='image/png' size='102957'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850511700' status='passed' stop='1684850515617'>
+                    <name>And ao  informar as informações: title "" fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "" fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850511700' status='passed' stop='1684850515617'>
+                            <name>accountPage: preencherFormCadastro , "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro , "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850511700' status='passed' stop='1684850513073'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_firstname", "Alexandre"' source='942328e9-b883-46fb-b701-8a2a3a5ee3c2-attachment.png' type='image/png' size='106482'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850513073' status='passed' stop='1684850514389'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_lastname", "Santos"' source='f3e2eb71-096b-4706-accc-c47549ab556b-attachment.png' type='image/png' size='107841'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850514390' status='passed' stop='1684850515616'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='1f516524-a198-4694-96ff-15607a1397ba-attachment.png' type='image/png' size='40656'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850515617' status='passed' stop='1684850519207'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850515617' status='passed' stop='1684850519207'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850515617' status='passed' stop='1684850516817'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#days", ' source='0906069d-3edb-4290-8d41-e071ae059389-attachment.png' type='image/png' size='40656'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850516817' status='passed' stop='1684850518006'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "months", ' source='6a2325cb-dc68-403c-b3b7-de27f94c1a83-attachment.png' type='image/png' size='40656'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850518006' status='passed' stop='1684850519207'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#years", ' source='3af30ac2-5404-4921-961b-34bf8701dc6c-attachment.png' type='image/png' size='40656'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850519207' status='passed' stop='1684850520968'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850519207' status='passed' stop='1684850520968'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850519207' status='passed' stop='1684850520968'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Register"' source='fb741406-e450-4082-a5b7-5dd54ef1d73b-attachment.png' type='image/png' size='108057'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850520968' status='passed' stop='1684850521100'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850520968' status='passed' stop='1684850521100'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850520968' status='passed' stop='1684850521100'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "passwd is required"' source='54702832-f440-4e78-a809-05eba8d6af43-attachment.png' type='image/png' size='108057'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850521373' status='passed' stop='1684850544671'>
+            <name>TC12 - Criação de usuário - indicando o tílulo saudação - Mr.</name>
+            <title>TC12 - Criação de usuário - indicando o tílulo saudação - Mr.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850522153' status='passed' stop='1684850529657'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850522153' status='passed' stop='1684850529657'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850522153' status='passed' stop='1684850529657'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='7f6d0dde-1c34-4276-8fe5-385dc0b2ec3e-attachment.png' type='image/png' size='772110'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850529657' status='passed' stop='1684850531658'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850529657' status='passed' stop='1684850531658'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850529657' status='passed' stop='1684850531658'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='924565d6-ce9f-4209-bdb9-12ed24ae7b51-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850531658' status='passed' stop='1684850533009'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850531658' status='passed' stop='1684850533009'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850531658' status='passed' stop='1684850533009'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1@uorak.com"' source='53586fb2-bd06-494c-95aa-1477a411f752-attachment.png' type='image/png' size='113242'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850533009' status='passed' stop='1684850534225'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850533009' status='passed' stop='1684850534225'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850533009' status='passed' stop='1684850534225'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='b1b3e255-d1a9-4e1c-96fe-a53d0056773a-attachment.png' type='image/png' size='102443'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850534225' status='passed' stop='1684850539166'>
+                    <name>And ao  informar as informações: title "Mr." fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "Mr." fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850534225' status='passed' stop='1684850539166'>
+                            <name>accountPage: preencherFormCadastro "Mr.", "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro "Mr.", "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850534225' status='passed' stop='1684850535452'>
+                                    <name>I check option "Mr."</name>
+                                    <title>I check option "Mr."</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I check option "Mr."' source='241958c4-a10c-4daa-a55c-5cafa05ced57-attachment.png' type='image/png' size='103021'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850535452' status='passed' stop='1684850536717'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_firstname", "Alexandre"' source='bf61a146-3540-4f04-806e-3c0cc9e05c07-attachment.png' type='image/png' size='105936'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850536717' status='passed' stop='1684850537963'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_lastname", "Santos"' source='d3ab1d16-4253-46dd-947b-84a7f25b3dc1-attachment.png' type='image/png' size='107240'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850537963' status='passed' stop='1684850539166'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='769638ee-5e67-440f-9abc-87e8494a95ec-attachment.png' type='image/png' size='40924'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850539166' status='passed' stop='1684850542734'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850539166' status='passed' stop='1684850542734'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850539166' status='passed' stop='1684850540363'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#days", ' source='f51c0471-73de-4660-b955-af902979aabb-attachment.png' type='image/png' size='40924'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850540363' status='passed' stop='1684850541551'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "months", ' source='73fd327a-c5c6-4e19-867f-bef036dd2fa8-attachment.png' type='image/png' size='40924'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850541551' status='passed' stop='1684850542734'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#years", ' source='674cb8dc-ec5a-4987-baf0-8ec1db1b2914-attachment.png' type='image/png' size='40924'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850542734' status='passed' stop='1684850544510'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850542734' status='passed' stop='1684850544510'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850542734' status='passed' stop='1684850544510'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Register"' source='ed6fcc8f-1367-42a9-b80a-1a1788e22e51-attachment.png' type='image/png' size='107463'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850544510' status='passed' stop='1684850544671'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850544510' status='passed' stop='1684850544671'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850544510' status='passed' stop='1684850544671'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "passwd is required"' source='2272af55-a446-497d-a073-7af6ed9a93dd-attachment.png' type='image/png' size='107463'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850545070' status='passed' stop='1684850567911'>
+            <name>TC13 - Criação de usuário - indicando o tílulo saudação - Mrs.</name>
+            <title>TC13 - Criação de usuário - indicando o tílulo saudação - Mrs.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850545909' status='passed' stop='1684850552696'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850545909' status='passed' stop='1684850552696'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850545909' status='passed' stop='1684850552696'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='0e0c5894-7682-4e01-bef6-d42a4b901f18-attachment.png' type='image/png' size='772110'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850552696' status='passed' stop='1684850554887'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850552696' status='passed' stop='1684850554887'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850552697' status='passed' stop='1684850554887'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='bef6507a-4765-49f3-ab65-49b72338192e-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850554887' status='passed' stop='1684850556299'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850554887' status='passed' stop='1684850556299'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850554887' status='passed' stop='1684850556299'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1@uorak.com"' source='5a8c688e-656b-412e-a725-14182633aa64-attachment.png' type='image/png' size='113242'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850556299' status='passed' stop='1684850557514'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850556299' status='passed' stop='1684850557514'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850556299' status='passed' stop='1684850557514'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='cb7f7289-51c2-4bdb-828e-5d096513a828-attachment.png' type='image/png' size='102443'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850557514' status='passed' stop='1684850562524'>
+                    <name>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850557514' status='passed' stop='1684850562524'>
+                            <name>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850557514' status='passed' stop='1684850558770'>
+                                    <name>I check option "Mrs."</name>
+                                    <title>I check option "Mrs."</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I check option "Mrs."' source='27ee7db0-f93b-4877-bbea-89bd26f0850a-attachment.png' type='image/png' size='103028'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850558771' status='passed' stop='1684850560072'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_firstname", "Alexandre"' source='7e6c7f7f-c6ed-4f93-8693-40c6912d2d5f-attachment.png' type='image/png' size='105944'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850560073' status='passed' stop='1684850561315'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_lastname", "Santos"' source='b1839146-9bc9-4c9c-986d-3d4079ff3085-attachment.png' type='image/png' size='107247'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850561315' status='passed' stop='1684850562523'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='8afc1329-3d50-4cb3-8296-6ba91c457328-attachment.png' type='image/png' size='40931'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850562524' status='passed' stop='1684850566072'>
+                    <name>And data de nascimento dia "" mês "" ano "" </name>
+                    <title>And data de nascimento dia "" mês "" ano "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850562524' status='passed' stop='1684850566072'>
+                            <name>accountPage: preencherDataNascimento , , </name>
+                            <title>accountPage: preencherDataNascimento , , </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850562524' status='passed' stop='1684850563712'>
+                                    <name>I select option "#days", </name>
+                                    <title>I select option "#days", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#days", ' source='141772b5-6978-4d04-8430-3873fc7cf8c7-attachment.png' type='image/png' size='40931'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850563712' status='passed' stop='1684850564903'>
+                                    <name>I select option "months", </name>
+                                    <title>I select option "months", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "months", ' source='729bd90b-cefd-4696-adaa-be2672dcdf32-attachment.png' type='image/png' size='40931'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850564903' status='passed' stop='1684850566072'>
+                                    <name>I select option "#years", </name>
+                                    <title>I select option "#years", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#years", ' source='ab9e3ada-ac04-45d4-968b-c6c9d9e64b97-attachment.png' type='image/png' size='40931'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850566072' status='passed' stop='1684850567740'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850566072' status='passed' stop='1684850567740'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850566072' status='passed' stop='1684850567740'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Register"' source='19adf9e6-9a1e-41b4-965d-0a3e55b347c4-attachment.png' type='image/png' size='107466'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850567740' status='passed' stop='1684850567911'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850567740' status='passed' stop='1684850567911'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850567740' status='passed' stop='1684850567911'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "passwd is required"' source='a35bb3b7-0e96-4863-99c4-fe00509037c7-attachment.png' type='image/png' size='107466'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850568185' status='passed' stop='1684850591356'>
+            <name>TC14 - Criação de usuário - Data nascimento inválida</name>
+            <title>TC14 - Criação de usuário - Data nascimento inválida</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850568925' status='passed' stop='1684850576229'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850568925' status='passed' stop='1684850576229'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850568925' status='passed' stop='1684850576229'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='253646da-2b72-4aba-8232-45a3d0af4b18-attachment.png' type='image/png' size='772102'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850576229' status='passed' stop='1684850578326'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850576229' status='passed' stop='1684850578326'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850576229' status='passed' stop='1684850578326'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='a6fe6880-ded2-4356-b031-ba940b1ed8b2-attachment.png' type='image/png' size='110132'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850578326' status='passed' stop='1684850579716'>
+                    <name>And ao informar o email "ale1@uorak.com" </name>
+                    <title>And ao informar o email "ale1@uorak.com" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850578326' status='passed' stop='1684850579716'>
+                            <name>accountPage: preecherEmail "ale1@uorak.com"</name>
+                            <title>accountPage: preecherEmail "ale1@uorak.com"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850578326' status='passed' stop='1684850579715'>
+                                    <name>I fill field "#email_create", "ale1@uorak.com"</name>
+                                    <title>I fill field "#email_create", "ale1@uorak.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "ale1@uorak.com"' source='9d8a5ef8-1e25-46c8-b9de-0eedef9a14d2-attachment.png' type='image/png' size='113242'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850579716' status='passed' stop='1684850580938'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850579716' status='passed' stop='1684850580938'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850579716' status='passed' stop='1684850580938'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='37479cc9-6052-45d3-b8af-92ce32f07dde-attachment.png' type='image/png' size='102598'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850580938' status='passed' stop='1684850585910'>
+                    <name>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </name>
+                    <title>And ao  informar as informações: title "Mrs." fist name "Alexandre" Last name "Santos" password "" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850580938' status='passed' stop='1684850585910'>
+                            <name>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </name>
+                            <title>accountPage: preencherFormCadastro "Mrs.", "Alexandre", "Santos", </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850580938' status='passed' stop='1684850582161'>
+                                    <name>I check option "Mrs."</name>
+                                    <title>I check option "Mrs."</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I check option "Mrs."' source='77481a04-e5cb-4c06-89a1-7a21850626fd-attachment.png' type='image/png' size='103028'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850582161' status='passed' stop='1684850583455'>
+                                    <name>I fill field "#customer_firstname", "Alexandre"</name>
+                                    <title>I fill field "#customer_firstname", "Alexandre"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_firstname", "Alexandre"' source='6abae563-e937-4ea0-8fac-78f8a556cdcf-attachment.png' type='image/png' size='105944'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850583455' status='passed' stop='1684850584693'>
+                                    <name>I fill field "#customer_lastname", "Santos"</name>
+                                    <title>I fill field "#customer_lastname", "Santos"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_lastname", "Santos"' source='1e9ee131-d3e2-400d-a1fe-fa4db554e73f-attachment.png' type='image/png' size='107247'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850584693' status='passed' stop='1684850585910'>
+                                    <name>I fill field "#passwd", </name>
+                                    <title>I fill field "#passwd", </title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", ' source='21d0db38-25d0-4bd7-bee3-533cfda100c0-attachment.png' type='image/png' size='40931'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850585910' status='passed' stop='1684850589478'>
+                    <name>And data de nascimento dia "30" mês "13" ano "1400" </name>
+                    <title>And data de nascimento dia "30" mês "13" ano "1400" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850585910' status='passed' stop='1684850589478'>
+                            <name>accountPage: preencherDataNascimento "30", "13", "1400"</name>
+                            <title>accountPage: preencherDataNascimento "30", "13", "1400"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850585910' status='passed' stop='1684850587102'>
+                                    <name>I select option "#days", "30"</name>
+                                    <title>I select option "#days", "30"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#days", "30"' source='a0b8a101-d184-4f6a-a527-356f42f15599-attachment.png' type='image/png' size='41259'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850587102' status='passed' stop='1684850588292'>
+                                    <name>I select option "months", "13"</name>
+                                    <title>I select option "months", "13"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "months", "13"' source='1e8d67ed-f76e-4ee5-bb43-44702f6919ed-attachment.png' type='image/png' size='41259'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850588292' status='passed' stop='1684850589478'>
+                                    <name>I select option "#years", "1400"</name>
+                                    <title>I select option "#years", "1400"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#years", "1400"' source='371fc4d1-d09d-4da7-b2f1-e8fcd979cc7d-attachment.png' type='image/png' size='41259'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850589478' status='passed' stop='1684850591185'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850589478' status='passed' stop='1684850591185'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850589478' status='passed' stop='1684850591185'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Register"' source='b553d2be-3432-48a9-990f-8fe1cbecb751-attachment.png' type='image/png' size='108803'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850591185' status='passed' stop='1684850591356'>
+                    <name>Then eu visualizo a seguinte mensagem "passwd is required" </name>
+                    <title>Then eu visualizo a seguinte mensagem "passwd is required" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850591185' status='passed' stop='1684850591356'>
+                            <name>homePage: verificacaoTextoPagina "passwd is required"</name>
+                            <title>homePage: verificacaoTextoPagina "passwd is required"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850591185' status='passed' stop='1684850591356'>
+                                    <name>I see "passwd is required"</name>
+                                    <title>I see "passwd is required"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "passwd is required"' source='23b71e22-21b5-4dd5-8699-09648909019c-attachment.png' type='image/png' size='108803'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684850591677' status='passed' stop='1684850617527'>
+            <name>TC15 - Criação de usuário -sucesso</name>
+            <title>TC15 - Criação de usuário -sucesso</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1684850592730' status='passed' stop='1684850599505'>
+                    <name>Given acesso a aplicação </name>
+                    <title>Given acesso a aplicação </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850592730' status='passed' stop='1684850599505'>
+                            <name>homePage: abrirAplicacao </name>
+                            <title>homePage: abrirAplicacao </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850592730' status='passed' stop='1684850599505'>
+                                    <name>I am on page "/"</name>
+                                    <title>I am on page "/"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I am on page "/"' source='8129d4c4-4ce0-4d7f-88af-b02dc37c8993-attachment.png' type='image/png' size='773593'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850599505' status='passed' stop='1684850601751'>
+                    <name>When ao clicar no botão - Sign in - </name>
+                    <title>When ao clicar no botão - Sign in - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850599505' status='passed' stop='1684850601751'>
+                            <name>homePage: acessandoLogin </name>
+                            <title>homePage: acessandoLogin </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850599506' status='passed' stop='1684850601750'>
+                                    <name>I click "Sign in"</name>
+                                    <title>I click "Sign in"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Sign in"' source='2eb2b789-86ac-4c7e-accc-9f3abe8741d5-attachment.png' type='image/png' size='110972'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850601751' status='passed' stop='1684850603330'>
+                    <name>And ao informar o email "gerado_sistema" </name>
+                    <title>And ao informar o email "gerado_sistema" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850601751' status='passed' stop='1684850603330'>
+                            <name>accountPage: preecherEmail "gerado_sistema"</name>
+                            <title>accountPage: preecherEmail "gerado_sistema"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850601751' status='passed' stop='1684850603330'>
+                                    <name>I fill field "#email_create", "Sharon.Bogisich@gmail.com"</name>
+                                    <title>I fill field "#email_create", "Sharon.Bogisich@gmail.com"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#email_create", "Sharon.Bogisich@gmail.com"' source='98acec41-ca5b-4239-ab7d-67ab65b9a082-attachment.png' type='image/png' size='114675'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850603330' status='passed' stop='1684850604623'>
+                    <name>And click no botão - create an account - </name>
+                    <title>And click no botão - create an account - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850603330' status='passed' stop='1684850604623'>
+                            <name>accountPage: criarAccount </name>
+                            <title>accountPage: criarAccount </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850603330' status='passed' stop='1684850604623'>
+                                    <name>I click "Create an account"</name>
+                                    <title>I click "Create an account"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Create an account"' source='17495dcd-ee07-4c22-8a4e-4c13f0182ae1-attachment.png' type='image/png' size='103672'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850604623' status='passed' stop='1684850608938'>
+                    <name>And ao  informar as informações: title "Mr" fist name "gerado_sistema" Last name "gerado_sistema" password "gerado_sistema" </name>
+                    <title>And ao  informar as informações: title "Mr" fist name "gerado_sistema" Last name "gerado_sistema" password "gerado_sistema" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850604623' status='passed' stop='1684850608938'>
+                            <name>accountPage: preencherFormCadastro "Mr", "gerado_sistema", "gerado_sistema", "gerado_sistema"</name>
+                            <title>accountPage: preencherFormCadastro "Mr", "gerado_sistema", "gerado_sistema", "gerado_sistema"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850604623' status='passed' stop='1684850606097'>
+                                    <name>I fill field "#customer_firstname", "Estrella"</name>
+                                    <title>I fill field "#customer_firstname", "Estrella"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_firstname", "Estrella"' source='0c5ce4aa-e3ad-45c8-9c85-6b2752f38943-attachment.png' type='image/png' size='106097'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850606097' status='passed' stop='1684850607464'>
+                                    <name>I fill field "#customer_lastname", "Purdy"</name>
+                                    <title>I fill field "#customer_lastname", "Purdy"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#customer_lastname", "Purdy"' source='3fcdde0a-cf52-4cbc-b163-d05095214bc4-attachment.png' type='image/png' size='107396'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850607464' status='passed' stop='1684850608938'>
+                                    <name>I fill field "#passwd", "J1HmKAg033QHJ2j"</name>
+                                    <title>I fill field "#passwd", "J1HmKAg033QHJ2j"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I fill field "#passwd", "J1HmKAg033QHJ2j"' source='b534b952-9cf2-48cd-b2f7-c378d3cddb02-attachment.png' type='image/png' size='40948'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850608938' status='passed' stop='1684850612636'>
+                    <name>And data de nascimento dia "14" mês "11" ano "1990" </name>
+                    <title>And data de nascimento dia "14" mês "11" ano "1990" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850608938' status='passed' stop='1684850612636'>
+                            <name>accountPage: preencherDataNascimento "14", "11", "1990"</name>
+                            <title>accountPage: preencherDataNascimento "14", "11", "1990"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850608938' status='passed' stop='1684850610129'>
+                                    <name>I select option "#days", "14"</name>
+                                    <title>I select option "#days", "14"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#days", "14"' source='fbd4c3b0-63a8-4366-b771-e86be9f37097-attachment.png' type='image/png' size='41138'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850610130' status='passed' stop='1684850611360'>
+                                    <name>I select option "months", "11"</name>
+                                    <title>I select option "months", "11"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "months", "11"' source='b485cb9c-21d0-44b5-a1e6-c6abaa5061ae-attachment.png' type='image/png' size='41769'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850611360' status='passed' stop='1684850612636'>
+                                    <name>I select option "#years", "1990"</name>
+                                    <title>I select option "#years", "1990"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I select option "#years", "1990"' source='6839d022-5729-4e88-9ba0-3dece9a98eaa-attachment.png' type='image/png' size='42106'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850612636' status='passed' stop='1684850615079'>
+                    <name>And aceito os temrmos: - Sign up for our newsletter! - "SIM" e - Receive special offers from our partners!- "SIM" </name>
+                    <title>And aceito os temrmos: - Sign up for our newsletter! - "SIM" e - Receive special offers from our partners!- "SIM" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850612636' status='passed' stop='1684850615079'>
+                            <name>accountPage: aceitarReceberInformacoes "SIM", "SIM"</name>
+                            <title>accountPage: aceitarReceberInformacoes "SIM", "SIM"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850612636' status='passed' stop='1684850613876'>
+                                    <name>I check option "#newsletter"</name>
+                                    <title>I check option "#newsletter"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I check option "#newsletter"' source='6318f07b-cb0e-472a-be58-4e6a509501d5-attachment.png' type='image/png' size='40764'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1684850613876' status='passed' stop='1684850615079'>
+                                    <name>I check option "#optin"</name>
+                                    <title>I check option "#optin"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I check option "#optin"' source='6e101e9f-bb17-4d9e-84a9-198aecddc8f6-attachment.png' type='image/png' size='41049'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850615079' status='passed' stop='1684850617300'>
+                    <name>And clico no botão - Register - </name>
+                    <title>And clico no botão - Register - </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850615079' status='passed' stop='1684850617300'>
+                            <name>accountPage: register </name>
+                            <title>accountPage: register </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850615079' status='passed' stop='1684850617300'>
+                                    <name>I click "Register"</name>
+                                    <title>I click "Register"</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I click "Register"' source='a82fc73d-8111-48b8-83b3-f3fe74fe31db-attachment.png' type='image/png' size='117361'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1684850617300' status='passed' stop='1684850617527'>
+                    <name>Then eu visualizo a seguinte mensagem "Your account has been created." </name>
+                    <title>Then eu visualizo a seguinte mensagem "Your account has been created." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684850617300' status='passed' stop='1684850617527'>
+                            <name>homePage: verificacaoTextoPagina "Your account has been created."</name>
+                            <title>homePage: verificacaoTextoPagina "Your account has been created."</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1684850617300' status='passed' stop='1684850617527'>
+                                    <name>I see "Your account has been created."</name>
+                                    <title>I see "Your account has been created."</title>
+                                    <attachments>
+                                        <attachment title='Screenshot of step I see "Your account has been created."' source='2c454486-b997-436f-b171-6f6c1770fb31-attachment.png' type='image/png' size='117361'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
